@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "Print go version"
+          name: "Print go version and chekc"
           command: go version
       - run:
           name: "Run Unit Tests"
